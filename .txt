@@ -1,0 +1,20 @@
+// install dependencies
+npm install express mysql2 bcryptjs cookie-parser jsonwebtoken cors dotenv redis socket.io nodemailer helmet morgan
+npm install -D nodemon
+
+//for JWT_SECRET key
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'));"
+
+// structure
+node-server/
+├── config/
+│   └── db.js
+├── controllers/
+├── middleware/
+├── routes/
+├── server.js
+├── package.json
+├── .env
+└── ...
+
+// navigate to .gitignore and uncomment .env

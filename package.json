@@ -1,0 +1,14 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A Node.js server for node-server website",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "migrate": "node migration.js"
+  },
+  "keywords": ["node-server", "node", "server", "express", "mysql"],
+  "author": "Protocodes",
+  "license": "ISC"
+}
